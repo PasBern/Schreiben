@@ -1,0 +1,98 @@
+\documentclass[fontsize=11pt,paper=a4,ngerman,parskip]{scrlttr2}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[ansinew]{inputenc}
+
+
+
+\usepackage{xcolor}
+\usepackage[ngerman]{babel}
+\usepackage{textcomp}
+\usepackage{setspace}
+\usepackage[top=20mm]{geometry}
+
+
+
+%%%-------------------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+\pagestyle{empty}
+	\begin{flushright}
+
+		
+		Pascal Bernhard\\
+		Schwalbacher Stra{\ss}e 7\\
+		12161 Berlin\linebreak
+		\\
+		
+		
+		
+	\end{flushright}
+
+
+	\vspace{5mm}
+
+
+
+	\begin{flushleft}
+	
+		\textbf{Petra Hübner}\\
+		Förderstraße 25\\
+		47178 Duisburg
+		
+	\end{flushleft}
+
+	\vspace{2cm}
+
+	\begin{center}
+		\sffamily{\Huge{\bfseries{Rechnung}}}
+	\end{center}
+
+\bigskip
+
+
+\noindent
+Sehr geehrte Frau Hübner,\par
+  
+Für Kauf und Verkauf einer Grafikkarte \textsl{ATI Radeon HD 5450} laut Ebay-Versteigerung vom 15. August 2011 (Artikelnummer: 170679215776) stelle ich Ihnen in Rechnung:
+					
+				\begin{quote}
+					\begin{flushright}
+					\begin{tabular}{r c r}
+							
+					Grafikkarte \textsl{ATI Radeon HD 5450} & =  &  28,50 Euro \\
+					Versandkosten  & =  & 4,50 Euro \\
+					\hline
+					            Gesamtbetrag & = & 33,00 Euro
+					            
+					\end{tabular}
+					\end{flushright}
+				\end{quote}
+
+
+	\vspace{15mm}
+	
+
+Den Betrag bitte ich auf folgendes Konto zu überweisen:
+\par
+					
+					\begin{center}
+						Andrea Volmary\\
+
+						\emph{Kontonummer: 431 75 74\\
+																			BLZ: 760 260 00\\
+																			Noris Bank}
+														  
+									
+					\end{center}
+
+
+	\vspace{1cm}
+
+Pascal Bernhard\par
+	
+Berlin, den \today \par 
+			
+	\end{document}

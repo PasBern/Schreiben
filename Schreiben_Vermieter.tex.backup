@@ -1,0 +1,72 @@
+\documentclass[a4paper,11pt]{letter}
+
+\usepackage[ansinew]{inputenc}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{xcolor}
+\usepackage[german,germanb]{babel}
+\usepackage{fontenc}
+\usepackage{geometry}
+
+
+\usepackage[dvips]{hyperref}
+
+\author{Pascal Bernhard}
+\title{Schreiben Vorlage}
+\date{\today}
+%%%___________________________________________________________________________________________________________
+\geometry{top=20mm}
+
+\begin{document}
+ 
+\pagestyle{empty}
+
+
+
+	\begin{flushright}
+		Berlin, den \today \linebreak
+
+		Pascal Bernhard\\
+		Schwalbacher Stra{\ss}e 7\\
+		12161 Berlin\\		
+		Telefon: \textsl{+49 176 57 13 27 90}\\
+		Email: \textsl{pascal.hasko@yahoo.de}\\
+		
+		
+	\end{flushright}
+
+\vspace{5mm}	
+
+Helmut Häusgen\\
+Robert-Koch-Straße 8\\
+45147 Essen
+
+\vspace{25mm}
+
+
+Sehr geehrter Herr Häusgen,\\
+
+mir war es in den letzten zwei Wochen nicht möglich, Sie telefonisch zu erreichen, weder unter der ``alten'' Festnetznummer (+49 20 11 77 44 23), die anscheinend nicht mehr gültig ist, noch unter der auf dem Briefkopf angegebenen Handy-Nummer (+49 170 478 55 23). Am Sonntag wurde ich zwar von einem Herrn Häusgen von letzterer Nummer zurückgerufen, jedoch erklärte mir der Herr, dass hier ein Mussverständnis vorliege und er mit der Wohnungsvermietung nichts zu tun habe. Ehrlich gesagt, bin ich jetzt ein bisschen verwirrt.
+Da eine Email vom 5. März ohne Antwort geblieben ist, schreibe ich einen traditionellen Brief in der Hoffnung, Sie damit erreichen zu können. 
+
+\textsl{Zur Erklärung der Mietrückstände:}\\
+Im Oktober letzten Jahres wurde in Folge der Finanzkrise ein monatliches Stipendium der DIHK wegen Zahlungsschwierigkeiten noch vor dem eigentlichen Auslaufen Ende 2010 kurzfristig eingestellt. Seither konnte ich keine Arbeit finden, die mir diesen Einkommensausfall angemessen ausgleicht. Hinzukommen chronische Kosten für Zahnbehandlungen, welche die Krankenkasse nur zum geringen Teil, bzw. überhaupt übernimmt.
+
+Meine Nachbarin Frau Volmary hat mir nun angeboten, für das Erste die Mietzahlung an meiner statt zu übernehmen (sie hat mir nicht genau gesagt, welchen Betrag sie überweisen will, daher könnte dies geringer als die eigentliche Miete ausfallen). Sie sollten Anfang kommender Woche eine Überweisung erhalten. 
+
+Wie erläutert erlaubt es mir die gegenwärtige finanzielle Situation nicht, die angehäuften Mietrückstände umgehend zu begleichen. Dies wird erst nach Studienabschluss (Anfang nächsten Jahres) realistisch der Fall sein mit einer "regulären" Arbeit. Ich bitte um Ihr Verständnis für
+meine schwierige Lage. Einen anderen Vorschlag kann ich Ihnen nicht machen.
+
+
+Bitte teilen Sie mir doch mit, wie ich Sie am Besten erreichen kann.
+
+\par
+\vspace{12mm}	
+
+
+Mit freundlichen Grü{\ss}en,\\ 
+
+\emph{Pascal Bernhard}
+
+
+\end{document}

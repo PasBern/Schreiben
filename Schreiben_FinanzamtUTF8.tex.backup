@@ -1,0 +1,58 @@
+\documentclass[a4paper,11pt]{letter}
+
+\usepackage[ansinew]{inputenc}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{xcolor}
+\usepackage[german,germanb]{babel}
+\usepackage{fontenc}
+\usepackage{geometry}
+
+
+\usepackage[dvips]{hyperref}
+
+\author{Pascal Bernhard}
+\title{Schreiben Vorlage}
+\date{\today}
+%%%___________________________________________________________________________________________________________
+\geometry{top=20mm}
+
+\begin{document}
+ 
+\pagestyle{empty}
+
+
+
+	\begin{flushright}
+	
+		Pascal Bernhard\\
+		Schwalbacher Stra{\ss}e 7\\
+		12161 Berlin\linebreak
+		
+		\textbf{Identifikationsnummer: \textsl{85 619 202 472}}\\
+		\textbf{Aktenzeichen: \textsl{18/227/51141 EH03}}
+		
+	\end{flushright}
+
+\vspace{20mm}	
+
+\textbf{Finanzamt Schöneberg}\\
+Postfach \\
+PLZ Stadt
+
+\vspace{22mm}
+
+
+Sehr geehrte Damen und Herren,\\
+
+TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText.
+\par
+\vspace{12mm}	
+
+
+Mit freundlichen Grü{\ss}en,\\ 
+
+\emph{Pascal Bernhard}\newline				
+Berlin, den \today
+
+\end{document}

@@ -1,0 +1,52 @@
+\documentclass[a4paper,11pt]{letter}
+
+\usepackage[ansinew]{inputenc}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{xcolor}
+\usepackage[german,germanb]{babel}
+\usepackage{fontenc}
+\usepackage[top=20mm, bottom=20mm, left=15mm, right=15mm]{geometry}
+\usepackage{textcomp}
+
+\usepackage[dvips]{hyperref}
+
+%%%_________________________________________________________________________________________________
+
+\begin{document}
+ 
+\pagestyle{empty}
+
+
+
+	\begin{flushright}
+	
+		Pascal Bernhard\\
+		Schwalbacher Stra{\ss}e 7\\
+		12161 Berlin\\		
+		\textbf{Rechnungsnummer: \textsl{X499979797}}
+		
+	\end{flushright}
+
+\vspace{26mm}	
+
+\textbf{mediserv Abrechnung und Service\\
+für Heilberufe GmbH}\\
+66094 Saarbrücken
+
+\vspace{22mm}
+
+
+Sehr geehrte Damen und Herren,\\
+
+ich sehe mich durch meine finanzielle Situation im Augenblick au{\ss}er Stande, die Rechnung (\textsl{X499979797}) umgehend zu begleichen. Bitte schlagen Sie mir eine alternative Zahlungsmöglichkeit, wie etwa eine Ratenzahlung, vor.
+\par
+\vspace{12mm}	
+
+
+Mit freundlichen Grü{\ss}en,\\ 
+
+\emph{Pascal Bernhard}\newline				
+Berlin, den \today
+
+\end{document}

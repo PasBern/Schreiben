@@ -1,0 +1,52 @@
+\documentclass[a4paper,11pt]{letter}
+
+\usepackage[ansinew]{inputenc}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{xcolor}
+\usepackage[german,germanb]{babel}
+\usepackage{fontenc}
+\usepackage[top=20mm, bottom=20mm, left=15mm]{geometry}
+
+
+\usepackage[dvips]{hyperref}
+
+%%%_________________________________________________________________________________________________
+
+\begin{document}
+ 
+\pagestyle{empty}
+
+
+
+	\begin{flushright}
+	
+		Pascal Bernhard\\
+		Schwalbacher Stra{\ss}e 7\\
+		12161 Berlin\\		
+		\textbf{Steuernummer: \textsl{18/227/51141}}
+		
+	\end{flushright}
+
+\vspace{3cm}	
+
+\textbf{Finanzamt Schöneberg}\\
+Potsdamer Straße 140\\
+10783 Berlin
+
+\vspace{22mm}
+
+
+Sehr geehrte Damen und Herren,\\
+
+ich lege hiermiet Widerspruch gegen ihre Bescheide vom 12. Dezember 2011 für Umsatzsteuer und Einkommenssteuer für das Jahr 2010 ein. Bis zu Änderung der Festsetzung werde ich keine weiteren Zahlungen leisten.
+\par
+\vspace{12mm}	
+
+
+Mit freundlichen Grü{\ss}en,\\ 
+
+\emph{Pascal Bernhard}\newline				
+Berlin, den \today
+
+\end{document}

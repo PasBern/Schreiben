@@ -1,0 +1,58 @@
+\documentclass[fontsize=11pt,paper=a4,ngerman,parskip]{scrlttr2}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[ansinew]{inputenc}
+
+
+\usepackage{xcolor}
+\usepackage[ngerman]{babel}
+\usepackage{textcomp}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{enumitem}
+
+%%%-------------------------------------------------------------------------------------------------
+
+\geometry{top=20mm}
+
+\begin{document}
+
+\pagestyle{empty}
+
+
+
+	\begin{flushright}
+	
+		Pascal Bernhard\\
+		Schwalbacher Stra{\ss}e 7\\
+		12161 Berlin\linebreak
+		
+		\textbf{Schutzbriefnummer:\textsl{1343728}\\
+		Schadensnummer:\textsl{171124}}
+		
+	\end{flushright}
+
+\vspace{5cm}	
+
+\textbf{assona GmbH}\\
+Postfach 51 11 36\\
+13371 Berlin
+
+\vspace{22mm}
+
+
+Sehr geehrte Damen und Herren,\\
+
+Am Nachmittag des 24.August 2008 reagierte das Ger�t, das hei{\ss}t der iPod nicht mehr und lie{\ss} isch auch nicht mehr einschalten. Ebenso wenig wurde das Ger�t vom PC nach Anschluss �ber USB-Kabel erkannt. Der Akku war am Morgen aufgeladen worden.\par
+Der Reparaturservice der \textsl{Saturn Filiale Steglitz} stellte fest, da{\ss} der USB-Anschluss des Ger�ts durch Schmutz besch�digt war, und der iPod in der Folge g�nzlich funktionsunt�chtig war. Mir wurde m�ndlich mitgeteil, da{\ss} eine Reparatur nicht m�glich sei. Das Ger�t befand sich seit Erwerb in einem \glqq Hardcase \grqq, welches aber ebenso wie andere Schutztaschen, den USB-Anschluss nicht abdeckt.
+\par
+\vspace{12mm}	
+
+
+Mit freundlichen Gr�{\ss}en,\\ 
+
+\emph{Pascal Bernhard}\newline				
+Berlin, den \today
+
+
+\end{document}

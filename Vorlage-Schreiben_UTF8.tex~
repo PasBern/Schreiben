@@ -1,0 +1,56 @@
+\documentclass[a4paper,11pt]{letter}
+
+\usepackage[ansinew]{inputenc}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{xcolor}
+\usepackage[german,germanb]{babel}
+\usepackage{fontenc}
+\usepackage[top=20mm, bottom=20mm, left=15mm]{geometry}
+
+
+\usepackage[dvips]{hyperref}
+
+%%%_________________________________________________________________________________________________
+
+\begin{document}
+ 
+\pagestyle{empty}
+
+
+
+	\begin{flushright}
+	
+		Pascal Bernhard\\
+		Schwalbacher Stra{\ss}e 7\\
+		12161 Berlin\\		
+		\textbf{BG-Nummer: \textsl{94406BG0094952}}
+		
+	\end{flushright}
+
+\vspace{3cm}	
+
+\textbf{Jobcenter Berlin Tempelhof-Sch\"oneberg}\\
+Herr Cuber\\
+Zeichen: \textsl{621-TS-Kundennummer: 922D303889}\\
+Wolframstra\ss{}e 89-92\\
+12105 Berlin
+
+\vspace{22mm}
+
+
+Sehr geehrte Damen und Herren,\\
+
+die R\"uckforderung von Leistungen durch das Jobcenter Berlin
+Tempelhof-Sch\"oneberg in H\"ohe von 2675,48 EUR, welche aus dem Schreiben vom
+19. April 2013 hervorgeht, 
+\par
+\vspace{12mm}	
+
+
+Mit freundlichen Grü{\ss}en,\\ 
+
+\emph{Pascal Bernhard}\newline				
+Berlin, den \today
+
+\end{document}

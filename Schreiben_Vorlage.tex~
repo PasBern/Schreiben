@@ -1,0 +1,54 @@
+\documentclass[a4paper,11pt]{letter}
+
+\usepackage[ansinew]{inputenc}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{xcolor}
+\usepackage[german,germanb]{babel}
+\usepackage{fontenc}
+\usepackage[top=20mm, bottom=20mm, left=15mm, right=15mm]{geometry}
+\usepackage{textcomp}
+
+\usepackage[dvips]{hyperref}
+
+%%%_________________________________________________________________________________________________
+
+\begin{document}
+ 
+\pagestyle{empty}
+
+
+
+	\begin{flushright}
+	
+		\textbf{DAK\\
+		22778 Hamburg}\\
+		Schwalbacher Stra{\ss}e 7\\
+		12161 Berlin\\		
+		\textbf{\textsl{unser Zeichen} 327 393 799 000-4 106560-13000-Pki}\\
+		Datum 05.03.2013
+		
+	\end{flushright}
+
+\vspace{26mm}	
+
+Herrn\\
+Pasc
+66094 Saarbrücken
+
+\vspace{22mm}
+
+
+Sehr geehrte Damen und Herren,\\
+
+ich sehe mich durch meine finanzielle Situation im Augenblick au{\ss}er Stande, die Rechnung (\textsl{X487502064}) umgehend zu begleichen. Bitte schlagen Sie mir eine alternative Zahlungsmöglichkeit vor.
+\par
+\vspace{12mm}	
+
+
+Mit freundlichen Grü{\ss}en,\\ 
+
+\emph{Pascal Bernhard}\newline				
+Berlin, den \today
+
+\end{document}

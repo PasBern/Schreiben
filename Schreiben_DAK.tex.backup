@@ -1,0 +1,60 @@
+\documentclass[a4paper,11pt]{letter}
+
+\usepackage[ansinew]{inputenc}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{xcolor}
+\usepackage[german,germanb]{babel}
+\usepackage{fontenc}
+\usepackage{geometry}
+
+
+\usepackage[dvips]{hyperref}
+
+\author{Pascal Bernhard}
+\title{Schreiben Vorlage}
+\date{\today}
+%%%___________________________________________________________________________________________________________
+\geometry{top=20mm}
+
+\begin{document}
+ 
+\pagestyle{empty}
+
+
+
+	\begin{flushright}
+		Berlin, den \today \linebreak
+
+		Pascal Bernhard\\
+		Schwalbacher Stra{\ss}e 7\\
+		12161 Berlin\\		
+		Telefon:\textsl{+49 176 57 13 27 90}\\
+		Email: \testsl {pascal.hasko@yahoo.de}
+		
+		
+	\end{flushright}
+
+\vspace{5mm}	
+
+Helmut Häusgen\\
+Robert-Koch-Straße 8
+45147 Essen
+
+\vspace{25mm}
+
+
+Sehr geehrter Herr Häusgen,\\
+
+mir war es in den letzten zwei Wochen nicht möglich, Sie telefonisch zu erreichen, weder unter der ``alten'' Festnetznummer (+49 20 11 77 44 23), die anscheinend nicht mehr gültig ist, noch unter der auf dem Briefkopf angegebenen Handy-Nummer (+49 170 478 55 23). Am Sonntag wurde ich zwar von einem Herrn Häusgen von letzterer Nummer zurückgerufen, jedoch erklärte mir der Herr, dass hier ein Mussverständnis vorliege und er mit der Wohnungsvermietung nichts zu tun habe. Ehrlich gesagt, bin ich jetzt ein bisschen verwirrt.
+Da eine Email vom 5. März ohne Antwort geblieben ist, schreibe ich einen traditionellen Brief in der Hoffnung, Sie damit erreichen zu können. 
+\par
+\vspace{12mm}	
+
+
+Mit freundlichen Grü{\ss}en,\\ 
+
+\emph{Pascal Bernhard}
+
+
+\end{document}

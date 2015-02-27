@@ -1,0 +1,57 @@
+\documentclass[a4paper,11pt]{letter}
+
+\usepackage[ansinew]{inputenc}
+\usepackage{multicol}
+\usepackage{rotating}
+\usepackage{xcolor}
+\usepackage[german,germanb]{babel}
+\usepackage{fontenc}
+\usepackage{geometry}
+
+
+\usepackage[dvips]{hyperref}
+
+\author{Pascal Bernhard}
+\title{Schreiben Vorlage}
+\date{\today}
+%%%___________________________________________________________________________________________________________
+\geometry{top=20mm}
+
+\begin{document}
+ 
+\pagestyle{empty}
+
+
+
+	\begin{flushright}
+		Berlin, den \today \linebreak
+
+		Pascal Bernhard\\
+		Schwalbacher Stra{\ss}e 7\\
+		12161 Berlin\\		
+		
+		
+		
+	\end{flushright}
+
+\vspace{10mm}	
+
+\textbf{Rechtsanwalt Christof Maurer}\\
+Am Halberg 6 \\
+66121 Saarbrücken
+
+\vspace{22mm}
+
+
+Sehr geehrter Herr Maurer,\\
+
+ich hatte mit der \textsl{mediserv Abrechnung und Service für Heilberufe GmbH} aufgrund meiner schwierigen finanziellen Situation die Vereinbarung getroffen, den offenen Rechnungsbetrag in monatlichen Raten zu jeweils 50 Euro zu begleichen. Die erste Zahlung im März 2011 (unter Angabe meiner Daten) ist mir am 31.März von meiner Bank mit dem Hinweis \textit{"`ZA AG NICHT ZUZUORDNEN PRAXIS 12536 00572"'} wieder gutgeschrieben worden. Ich habe daraufhin die Abrechnungsgesellschaft, ob des Problems kontaktiert, aber bisher noch keine Antwort erhalten.
+\par
+\vspace{12mm}	
+
+
+Mit freundlichen Grü{\ss}en,\\ 
+
+\emph{Pascal Bernhard}
+
+\end{document}
