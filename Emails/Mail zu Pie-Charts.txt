@@ -1,0 +1,60 @@
+Hi all, 
+
+I would like to insert a colored pie chart into my master's thesis I write with LaTeX using the KOMA-class sccreprt.
+
+The purpose is to show the market share of different companies. This as a disclaimer, since I have read several times on the web, that it is advised against using pie charts. Still I find this the most illustrative way to depict the idea of market shares. I am totally happy to hear of any suggestions of other solutions that are superior to pie charts.
+
+I came across several solutions, although most require the package pgf-pie to be installed, which apparently does not come with my TeX-Live 2013 (LaTeX, LuaTeX, XeLaTeX) on my Linux. As I mentioned in previous post, due to rather uncomfortable time constraints, I would like to tinker as few a possible with my TeX-installation. 
+
+The first example works (http://www.texample.net/tikz/examples/pie-chart/), but I'm totally at a loss about how get colors into the pie chart. This basically does the trick, I do not aspire to fancy stuff like a drawn out slice, but colors I definitively would like to see.
+
+
+\documentclass{article}
+
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage{tikz}
+\begin{document}
+\newcommand{\slice}[4]{
+  \pgfmathparse{0.5*#1+0.5*#2}
+  \let\midangle\pgfmathresult
+
+  % slice
+  \draw[thick,fill=black!10] (0,0) -- (#1:1) arc (#1:#2:1) -- cycle;
+
+  % outer label
+  \node[label=\midangle:#4] at (\midangle:1) {};
+
+  % inner label
+  \pgfmathparse{min((#2-#1-10)/110*(-0.3),0)}
+  \let\temp\pgfmathresult
+  \pgfmathparse{max(\temp,-0.5) + 0.8}
+  \let\innerpos\pgfmathresult
+  \node at (\midangle:\innerpos) {#3};
+}
+
+\begin{tikzpicture}[scale=3]
+
+\newcounter{a}
+\newcounter{b}
+\foreach \p/\t in {20/type A, 4/type B, 11/type C,
+                   49/type D, 16/other}
+  {
+    \setcounter{a}{\value{b}}
+    \addtocounter{b}{\p}
+    \slice{\thea/100*360}
+          {\theb/100*360}
+          {\p\%}{\t}
+  }
+
+\end{tikzpicture}
+
+\end{document}
+
+I should mention that in my case the pie chart is supposed to show that the markets is carved up by two companies, one having a 69 % market share, the other 29 %, which leaves 2 % for various other tiny firms. I'm not sure whether I could modify the example above quite easily to fit my needs, so any help here would also be higly appreciated.
+
+
+Thanks in advance for you kind help, 
+
+Pascal
+
